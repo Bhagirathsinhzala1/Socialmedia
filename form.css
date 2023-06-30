@@ -1,0 +1,67 @@
+.body{
+display: grid;
+
+}
+
+nav{
+    background-color: black;
+    margin: 5px auto;
+    padding: 10px 50vh;
+}
+
+
+.container {
+    background-image: url("https://source.unsplash.com/random");
+    width: 75vh;
+    height: 100vh;
+    margin: 20px 30%;
+    padding: 0 10%;
+}
+
+.btn :hover {
+    color: green;
+}
+#BACK{
+    cursor: pointer;
+}
+mark{
+    background-color: black;
+    color: red;
+}
+#image{
+	margin-top: 10px;
+	box-shadow: 5px 5px 5px 5px gray;
+	width: 60px;;
+	padding: 20px;
+	font-weight: 400;
+	padding-bottom: 0px;
+	height: 40px;
+	user-select: none;
+	text-decoration:line-through;
+	font-style: italic;
+	font-size: x-large;
+	border: red 2px solid;
+	margin-left: 10px;
+	
+}
+#user-input{
+	box-shadow: 5px 5px 5px 5px gray;
+	width:auto;
+	margin-right: 10px;
+	padding: 10px;
+	padding-bottom: 0px;
+	height: 40px;
+	border: red 0px solid;
+}
+input{
+	border:1px black solid;
+}
+.inline{
+	display:inline-block;
+}
+#btn{
+	box-shadow: 5px 5px 5px grey;
+	color: aqua;
+	margin: 10px;
+	background-color: brown;
+}
